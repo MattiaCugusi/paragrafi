@@ -11,9 +11,8 @@
    $size = 10;
    $num = 5;
 
-   for ($i = 0; $i < $num; $i ++){
-      echo "<p>Paragrafo</p>";
-
+   for ($i = 0; $i < $num; $i++){
+      echo "<p style='font-size: " . $size . "px;'>Paragrafo</p>";
       $size =  $size + 2;
 
    }
